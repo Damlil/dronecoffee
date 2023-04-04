@@ -1,0 +1,12 @@
+.reduxTest {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: orange;
+    background-color: rgb(56, 56, 56);
+}

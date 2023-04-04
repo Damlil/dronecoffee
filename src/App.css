@@ -1,0 +1,147 @@
+
+/*-- About sidan --*/
+
+.section--about {
+background-color: #F3E4E1;
+height: 1200px; 
+width: 100%;
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0;
+grid-row-gap: 2rem;
+}
+    
+.section--about__article {
+grid-column: 3 / span 6;
+grid-row: auto;
+}
+
+.section--about__imgFirst{
+grid-column: auto / span 12;
+}
+.section--about__article-heading {
+font-size: 42px;
+padding-bottom: 1rem;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+}
+    
+.section--about__article-heading-text {
+grid-row: auto / span 4;
+font-size: 14px;
+line-height: 160%;
+font-family: 'Work Sans';
+font-style: normal;  
+}
+
+.section--about__evaCortado-article {
+
+grid-column: 3 / span 6; 
+grid-row: auto;   
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.eva-cortado__img {
+grid-column: 6 / span 7;
+ 
+}
+
+.evaCortado-article-heading {
+font-family: 'PT Serif';
+font-style: normal; 
+font-size: 22px;
+}
+
+.evaCortado-article-text {
+font-family: 'PT Serif';
+font-style: normal;
+font-size: 14px;
+}
+
+.section--about__imgSecond {
+grid-column: auto / span 11;
+grid-row: auto;
+}
+
+
+/* --------------------------------------------------------------------*/
+
+/* -- Status sidan --*/
+
+.section--status {
+background-color: #E5674E; 
+color: #FFFFFF;
+/* height: 667px;
+width: 375px; */
+height: 100%;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(6,1fr);
+grid-template-rows: repeat(10,1fr);
+
+}
+
+.section--status__ordernumber {
+
+text-align: center;
+grid-column: 2 / 6;
+grid-row: 2 / 3;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+.section--status__img {
+grid-column: 3 / 5;
+grid-row: 4;
+}
+.section--status-heading__1 {
+
+text-align: center;
+grid-column: 2 / 6;
+grid-row: 6;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+padding-bottom: 3rem;
+}
+
+.section--status-heading__2 {
+
+grid-column: 3 / 5;
+grid-row: 7;
+text-align: center;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+}
+
+.section--status__btn {
+
+width: 184px;
+height: 55px;
+background: #FFFFFF;
+border-radius: 50px;
+color: #2F2926;
+cursor: pointer;
+grid-column: 3 / 5;
+grid-row: 9;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+
+} 
+
+/* ----------------------------------------------------------*/
+
+
+  
